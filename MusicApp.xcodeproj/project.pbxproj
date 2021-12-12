@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A487D161276511D9008DED62 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487D160276511D9008DED62 /* TableViewController.swift */; };
 		E82805D42759782100B03E22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82805D32759782100B03E22 /* AppDelegate.swift */; };
 		E82805D62759782100B03E22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82805D52759782100B03E22 /* SceneDelegate.swift */; };
 		E82805D82759782100B03E22 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82805D72759782100B03E22 /* HomeViewController.swift */; };
@@ -16,12 +17,12 @@
 		E8A5C154275E63450052AC96 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A5C153275E63450052AC96 /* LoginViewController.swift */; };
 		E8A5C156275E635C0052AC96 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A5C155275E635C0052AC96 /* RegisterViewController.swift */; };
 		E8A5C158275E63A80052AC96 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A5C157275E63A80052AC96 /* EditProfileViewController.swift */; };
-		E8A5C15A275E63C30052AC96 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A5C159275E63C30052AC96 /* EventViewController.swift */; };
 		E8A5C15C275E63E00052AC96 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A5C15B275E63E00052AC96 /* CreateEventViewController.swift */; };
 		E8A5C15E275E64660052AC96 /* ArtistInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A5C15D275E64660052AC96 /* ArtistInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A487D160276511D9008DED62 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E82805D02759782100B03E22 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82805D32759782100B03E22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E82805D52759782100B03E22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		E8A5C153275E63450052AC96 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E8A5C155275E635C0052AC96 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E8A5C157275E63A80052AC96 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
-		E8A5C159275E63C30052AC96 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		E8A5C15B275E63E00052AC96 /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
 		E8A5C15D275E64660052AC96 /* ArtistInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,13 +74,13 @@
 				E8A5C153275E63450052AC96 /* LoginViewController.swift */,
 				E8A5C155275E635C0052AC96 /* RegisterViewController.swift */,
 				E8A5C157275E63A80052AC96 /* EditProfileViewController.swift */,
-				E8A5C159275E63C30052AC96 /* EventViewController.swift */,
 				E8A5C15B275E63E00052AC96 /* CreateEventViewController.swift */,
 				E8A5C15D275E64660052AC96 /* ArtistInfoViewController.swift */,
 				E82805D92759782100B03E22 /* Main.storyboard */,
 				E82805DC2759782700B03E22 /* Assets.xcassets */,
 				E82805DE2759782700B03E22 /* LaunchScreen.storyboard */,
 				E82805E12759782700B03E22 /* Info.plist */,
+				A487D160276511D9008DED62 /* TableViewController.swift */,
 			);
 			path = MusicApp;
 			sourceTree = "<group>";
@@ -158,12 +158,12 @@
 			files = (
 				E8A5C154275E63450052AC96 /* LoginViewController.swift in Sources */,
 				E8A5C156275E635C0052AC96 /* RegisterViewController.swift in Sources */,
-				E8A5C15A275E63C30052AC96 /* EventViewController.swift in Sources */,
 				E8A5C158275E63A80052AC96 /* EditProfileViewController.swift in Sources */,
 				E82805D82759782100B03E22 /* HomeViewController.swift in Sources */,
 				E8A5C15E275E64660052AC96 /* ArtistInfoViewController.swift in Sources */,
 				E82805D42759782100B03E22 /* AppDelegate.swift in Sources */,
 				E82805D62759782100B03E22 /* SceneDelegate.swift in Sources */,
+				A487D161276511D9008DED62 /* TableViewController.swift in Sources */,
 				E8A5C15C275E63E00052AC96 /* CreateEventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

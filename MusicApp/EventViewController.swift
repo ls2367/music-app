@@ -2,19 +2,30 @@
 //  EventViewController.swift
 //  MusicApp
 //
-//  Created by Lisa Sternik on 12/6/21.
-//we will display all evets in a list - there is a search button and a link to google maps on each site
-//get data from database
+//  Created by Felix Weinreich on 11.12.21.
+//
 
 import UIKit
 
 class EventViewController: UITableViewController {
-  
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        print("View has loaded successfully")
+
     }
+
+    // MARK: - Table view data source
+
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 0
+    }
+
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return 0
+    }
+
 
 
 }

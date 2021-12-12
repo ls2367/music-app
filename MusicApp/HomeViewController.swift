@@ -16,6 +16,7 @@ class HomeViewController: UIViewController {
     @IBAction func visitorButton(_ sender: Any) {
         print("Visitor Button Pressed")
         self.performSegue(withIdentifier: "EventViewSegue", sender: self)
+        self.performSegue(withIdentifier: "EventViewSegue", sender: self)
     }
     
     override func viewDidLoad() {
